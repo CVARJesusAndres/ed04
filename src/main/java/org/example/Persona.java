@@ -4,19 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * La clase Contacto representa un contacto con su nombre y una lista de teléfonos asociados.
+ * La clase Persona representa un contacto con su nombre y una lista de teléfonos asociados.
  */
-class Contacto {
+public class Persona {
     private String name;
     private List<String> phones;
 
     /**
-     * Constructor para la clase Contacto.
+     * Constructor para la clase Persona.
      *
      * @param name  Nombre del contacto.
      * @param phone Teléfono inicial asociado al contacto.
      */
-    public Contacto(String name, String phone) {
+    public Persona(String name, String phone) {
         this.name = name;
         this.phones = new ArrayList<>();
         this.phones.add(phone);
